@@ -1,5 +1,5 @@
-# RAG using GPT4All LocalDocs
+# GPT4All with Local Docs
 
-This needs to be the complete guide to the local docs feature, it deserves its own proper page
+This needs to be the complete guide to the Local Docs feature, it deserves its own proper page
 
-Sounds like internally at nomic there is a preference for the name LocalDocs over RAG. Who's driving that decision?
+It's cringe but it will be worth explaining that this is RAG

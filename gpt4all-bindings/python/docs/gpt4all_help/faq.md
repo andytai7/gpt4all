@@ -43,6 +43,10 @@ System requirements
 
 llama.cpp
 
+### Is there a command-line interface (CLI)?
+
+Yeah there is but in Max's opinion it's not usable without the ability to generate more tokens per message
+
 ## Which languages?
 
 Python top priority, javascript second priority
