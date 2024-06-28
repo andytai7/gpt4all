@@ -6,6 +6,8 @@ GPT4All is software for anyone to run large language models (LLMs) **privately**
 
 Click here to install & explore the GPT4All desktop application. 
 
+![Alt text](../assets/gpt4all_home.png)
+
 ## Python
 
 Click here to use the GPT4All in python (wrapping super-fast C/C++ maintained by Nomic AI for excellent performance on your hardware)

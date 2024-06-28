@@ -4,8 +4,6 @@ GPT4All integrates with [OpenLIT](https://github.com/openlit/openlit) open telem
 
 You have the flexibility to view and analyze the generated traces and metrics either in the OpenLIT UI or by exporting them to widely used observability tools like Grafana and DataDog for more comprehensive analysis and visualization.This helps you easily enhance your GPT4All deployment over time by auto-tracking user interactions, performance metrics, and hardware stats (such as GPU utilization, temperature, power, and memory consumption).
 
-COOL PICTURE HERE OF DASHBOARD OF GPT4ALL STATS WE GOT FOR FREE BY MONITORING
-
 ## Getting Started
 
 Here’s a straightforward guide to help you set up and start monitoring your application:

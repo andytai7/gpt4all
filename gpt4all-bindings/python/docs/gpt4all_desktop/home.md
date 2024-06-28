@@ -1,5 +1,7 @@
 # GPT4All Desktop
 
+![Alt text](../assets/gpt4all_home.png)
+
 1. quick pic / gif of local docs
 
 2. link to installation section below

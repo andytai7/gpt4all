@@ -15,7 +15,6 @@ nav:
       - 'Local' : 'gpt4all_desktop/localdocs.md'
     - 'Python':
       - 'gpt4all_python/home.md'
-      - 'Guide': 'gpt4all_python/guide.md'
       - 'Monitoring': 'gpt4all_python/monitoring.md'
       - 'API Reference': 'gpt4all_python/ref.md'
     - 'Help':

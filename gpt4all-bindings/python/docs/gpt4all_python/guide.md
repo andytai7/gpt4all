@@ -17,6 +17,7 @@ Models are loaded by name via the GPT4All client. If it's your first time loadin
 ```python
 from gpt4all import GPT4All
 model = GPT4All("orca-mini-3b-gguf2-q4_0.gguf")
+# call with model.generate()
 ```
 
 ## Chat Session Generation
@@ -47,11 +48,13 @@ Why did it answer our question with a question? Because raw language models are 
 
 Therefore if you want your LLM's responses to help, we recommend you apply the chat templates the models were fine-tuned with.
 
-## RAG (retrieval-augmented generation)
+## Embedding
 
-RAG is cringe but probably worth explaining in its own guide using simple python loops
+In addition to language models, you can use the `gpt4all` package to load an embedding model.
 
-## Improving performance
-
-Quick guide showing that with small benchmark dataset & clear metric, you can prompt optimize with simple python loops
-
+```python
+from gpt4all import Embed4All
+text_embedder = Embed4All("orca-mini-3b-gguf2-q4_0.gguf")
+print(text_embedder.embed("plug in a string to embed it"))
+>>> [-0.006244505289942026, 0.03100959025323391, ..., 0.0896347388625145]
+```
